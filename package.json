@@ -4,7 +4,9 @@
   "description": "rest api backend for  unified",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 10000 --exit 'tests/**test.js'"
+    "test:mocha": "mocha --timeout 10000 --exit 'tests/**test.js'",
+    "test":"echo \"No test Specified\" && exit",
+    "lint": "eslint . --fix"
   },
   "repository": {
     "type": "git",
